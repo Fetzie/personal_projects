@@ -13,8 +13,11 @@ import businessObjects.SolveBusinessObjects.SolveSubtractionBO;
 
 
 
-
-
+/**
+ * 
+ * @author Tom
+ *
+ */
 public class Calculator{
 	
 	// instantiate business objects
@@ -30,7 +33,12 @@ public class Calculator{
 	// start a calculator
 	
 	
-
+/**
+ * 
+ * 
+ * 
+ * @param calcBO
+ */
 	public void calculate(CalculatorBusinessObject calcBO){
 		
 /*		

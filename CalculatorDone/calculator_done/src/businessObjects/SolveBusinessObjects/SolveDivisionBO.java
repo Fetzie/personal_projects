@@ -3,7 +3,12 @@ package businessObjects.SolveBusinessObjects;
 import businessObjects.CalculatorBusinessObject;
 
 public class SolveDivisionBO {
-
+/**
+ * performs a division
+ * @param calcBO
+ * @param a 
+ * @param b 
+ */
 	public void divisionResult(CalculatorBusinessObject calcBO, double a, double b) {
 		if (b != 0){
 			calcBO.setFirstResult(a / b);
